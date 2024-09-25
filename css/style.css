@@ -54,7 +54,7 @@ ol {
 .btn {
   background-color: var(--btn-color);
   padding: 4px 8px;
-  /* color: white; */
+  color: white;
 }
 
 /* HEADER */
@@ -72,7 +72,9 @@ ol {
 .menu-list {
   display: flex;
   align-items: center;
-  gap: 30px;
+  padding: 10px 30px;
+  gap: 35px;
+  font-size: 18px;
 }
 
 /* DEBUG RULES */
