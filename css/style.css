@@ -19,32 +19,9 @@ ol {
   list-style: none;
 }
 
-/* LAYOUT RULES */
-
-body {
-  width: 1920px;
-}
-
-.container-bg {
-  width: 1200px;
-}
-
-.container {
-  width: 1000px;
-}
-
-.navbar {
-  width: 100%;
-}
-
-.navbar .row {
-  display: flex;
-  justify-content: space-between;
-}
-
 /* CUSTOM PROPERTIES */
 
-:root  {
+:root {
   --btn-color: #0061ff;
   --hero-color: #b4d0e7;
   --grey-col: #f5f5f5;
@@ -56,6 +33,46 @@ body {
   --blue-col: #0d2481;
   --yellow-col: #ffd830;
   --footer-color: #000000;
+}
+
+/* LAYOUT RULES */
+
+.container-bg {
+  max-width: 1920px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1200px;
+}
+
+.container {
+  width: 1000px;
+}
+
+.btn {
+  background-color: var(--btn-color);
+  padding: 4px 8px;
+  /* color: white; */
+}
+
+/* HEADER */
+
+.navbar {
+  width: 100%;
+}
+
+.navbar .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 /* DEBUG RULES */
