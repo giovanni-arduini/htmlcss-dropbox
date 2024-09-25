@@ -48,3 +48,17 @@ body {
   --yellow-col: #ffd830;
   --footer-color: #000000;
 }
+
+/* DEBUG RULES */
+
+.debug .container {
+  border: 2px solid black;
+}
+
+.debug .row {
+  border: 2px dotted red;
+}
+
+.debug .col {
+  border: 2px solid rgb(26, 179, 37);
+}
