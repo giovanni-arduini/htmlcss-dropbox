@@ -51,7 +51,7 @@ ol {
 }
 
 .container-sm {
-  width: 1000px;
+  max-width: 1000px;
 }
 
 .btn {
@@ -64,12 +64,16 @@ ol {
   width: 100%;
 }
 
+.col-60 {
+  width: 60%;
+}
+
 .col-40 {
   width: 40%;
 }
 
-.col-60 {
-  width: 60%;
+.col-33 {
+  width: calc(100% / 3);
 }
 
 /* HEADER */
@@ -89,7 +93,7 @@ ol {
   align-items: center;
   padding: 20px 30px;
   gap: 35px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /* MAIN */
@@ -97,6 +101,7 @@ ol {
 /* HERO */
 .hero {
   background-color: var(--hero-color);
+  margin-bottom: 130px;
 }
 
 .row.hero-title {
@@ -139,6 +144,23 @@ ol {
   max-width: 100%;
 }
 
+/* SUBSCRIPTION PLANS */
+
+.subscription-plans h1 {
+  font-size: 30px;
+}
+
+.pay-time-choice {
+  display: flex;
+  gap: 40px;
+  font-size: 14px;
+}
+
+.row.subscribe-options {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* DEBUG RULES */
 
 .debug .container {
@@ -149,6 +171,9 @@ ol {
   border: 2px dotted red;
 }
 
-.debug .col {
+.debug .col-33,
+.debug .col-40,
+.debug .col-60,
+.debug .col-100 {
   border: 2px solid rgb(26, 179, 37);
 }
