@@ -56,7 +56,7 @@ ol {
 
 .btn {
   background-color: var(--btn-color);
-  padding: 4px 10px;
+  padding: 6px 10px;
   color: white;
 }
 
@@ -125,9 +125,10 @@ ol {
 .hero .col-40 :nth-last-child(2) {
   flex-grow: 1;
 }
-/* .hero .col-40 p {
-  margin-bottom: 35px;
-} */
+
+.col-40 .fa-solid.fa-arrow-down {
+  font-size: 42px;
+}
 
 .hero .col-60 img {
   object-fit: cover;
