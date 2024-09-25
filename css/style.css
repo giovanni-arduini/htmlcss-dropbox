@@ -37,17 +37,20 @@ ol {
 
 /* LAYOUT RULES */
 
-.container-bg {
-  max-width: 1920px;
+.center-rules {
   padding: 0;
   margin: 0 auto;
 }
 
-.container {
-  width: 1200px;
+.container-bg {
+  max-width: 1920px;
 }
 
 .container {
+  max-width: 1200px;
+}
+
+.container-sm {
   width: 1000px;
 }
 
@@ -55,6 +58,18 @@ ol {
   background-color: var(--btn-color);
   padding: 4px 8px;
   color: white;
+}
+
+.col-100 {
+  width: 100%;
+}
+
+.col-40 {
+  width: 40%;
+}
+
+.col-60 {
+  width: 60%;
 }
 
 /* HEADER */
@@ -75,6 +90,19 @@ ol {
   padding: 10px 30px;
   gap: 35px;
   font-size: 18px;
+}
+
+/* MAIN */
+
+/* HERO */
+.hero {
+  background-color: var(--hero-color);
+}
+
+.hero .col-100 p {
+  font-size: 78px;
+  font-weight: bolder;
+  padding-top: 96px;
 }
 
 /* DEBUG RULES */
