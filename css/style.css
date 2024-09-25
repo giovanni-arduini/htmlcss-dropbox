@@ -33,6 +33,15 @@ body {
   width: 1000px;
 }
 
+.navbar {
+  width: 100%;
+}
+
+.navbar .row {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* CUSTOM PROPERTIES */
 
 :root  {
