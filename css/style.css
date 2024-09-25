@@ -56,7 +56,7 @@ ol {
 
 .btn {
   background-color: var(--btn-color);
-  padding: 4px 8px;
+  padding: 4px 10px;
   color: white;
 }
 
@@ -87,7 +87,7 @@ ol {
 .menu-list {
   display: flex;
   align-items: center;
-  padding: 10px 30px;
+  padding: 20px 30px;
   gap: 35px;
   font-size: 18px;
 }
@@ -99,10 +99,32 @@ ol {
   background-color: var(--hero-color);
 }
 
+.row.hero-title {
+  margin-bottom: 75px;
+}
+
+.row.hero-content {
+  display: flex;
+}
+
 .hero .col-100 p {
   font-size: 78px;
   font-weight: bolder;
   padding-top: 96px;
+}
+
+.hero .col-40 {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+/* .hero .col-60 {
+} */
+
+.hero .col-60 img {
+  object-fit: cover;
+  max-width: 100%;
 }
 
 /* DEBUG RULES */
