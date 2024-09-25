@@ -103,23 +103,30 @@ ol {
   margin-bottom: 75px;
 }
 
-.row.hero-content {
-  display: flex;
-}
-
 .hero .col-100 p {
   font-size: 78px;
   font-weight: bolder;
   padding-top: 96px;
 }
 
+.row.hero-content {
+  display: flex;
+  align-content: center;
+}
+
 .hero .col-40 {
   display: flex;
   flex-direction: column;
+  gap: 20px;
   font-size: 18px;
+  padding-bottom: 20px;
 }
 
-/* .hero .col-60 {
+.hero .col-40 :nth-last-child(2) {
+  flex-grow: 1;
+}
+/* .hero .col-40 p {
+  margin-bottom: 35px;
 } */
 
 .hero .col-60 img {
