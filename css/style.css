@@ -20,3 +20,17 @@ ol {
 }
 
 /* LAYOUT RULES */
+
+body {
+  width: 1920px;
+}
+
+.container-bg {
+  width: 1200px;
+}
+
+.container {
+  width: 1000px;
+}
+
+/* CUSTOM PROPERTIES */
