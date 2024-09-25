@@ -120,6 +120,10 @@ ol {
   gap: 20px;
   font-size: 18px;
   padding-bottom: 20px;
+  align-items: flex-start;
+}
+
+.col-40 a {
 }
 
 .hero .col-40 :nth-last-child(2) {
