@@ -420,10 +420,16 @@ figure {
 .clients .col-33 {
   display: flex;
   flex-direction: column;
+  padding: 50px;
 }
 
 .main-client {
   width: 40%;
+  margin-bottom: 2rem;
+}
+
+.citation p {
+  margin-bottom: 2rem;
 }
 
 /* DEBUG RULES */
