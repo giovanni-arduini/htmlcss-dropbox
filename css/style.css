@@ -92,6 +92,16 @@ ol {
   width: calc(100% / 3);
 }
 
+.fa-solid,
+.fa-li i {
+  display: inline;
+  margin-right: 5px;
+}
+
+.fa-solid.fa-check {
+  color: #009dff;
+}
+
 /* HEADER */
 
 .navbar {
