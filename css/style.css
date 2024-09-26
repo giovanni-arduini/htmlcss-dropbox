@@ -339,11 +339,10 @@ figure {
 }
 
 /* OPERATION CARDS */
-/* 
-.operations-title {
-  text-align: start;
-  padding: 25px;
-} */
+
+.operations {
+  margin-bottom: 13rem;
+}
 
 .operations-title {
   margin-bottom: 5rem;
@@ -367,6 +366,8 @@ figure {
 .op-info-title {
   margin-bottom: 40px;
 }
+
+/* DISCOVER SECTION */
 
 /* DEBUG RULES */
 
