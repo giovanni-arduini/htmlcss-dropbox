@@ -369,6 +369,23 @@ figure {
 
 /* DISCOVER SECTION */
 
+.discover {
+  margin-bottom: 9rem;
+}
+
+.discover .row {
+  justify-content: flex-start;
+}
+
+.discover h1 {
+  margin-bottom: 4rem;
+}
+
+.discover a {
+  text-decoration: underline;
+  color: #0061ff;
+}
+
 /* DEBUG RULES */
 
 .debug .container {
