@@ -291,6 +291,11 @@ hr {
 
 /* Team card */
 
+.contact {
+  font-weight: 700;
+  margin-bottom: 58px;
+}
+
 /* DEBUG RULES */
 
 .debug .container {
