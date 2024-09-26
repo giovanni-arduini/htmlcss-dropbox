@@ -232,6 +232,30 @@ ol {
   padding: 14px 0px;
 }
 
+.card-cta {
+  margin-bottom: 35px;
+}
+
+.card-cta a:not(.btn) {
+  text-decoration: underline;
+  color: blue;
+  padding: 5px 0;
+}
+
+.card-cta .btn {
+  display: block;
+  margin-bottom: 36px;
+}
+
+.hl-title {
+  font-size: 13px;
+  margin-bottom: 24px;
+}
+
+.hl-list li {
+  padding: 12px 0;
+}
+
 /* DEBUG RULES */
 
 .debug .container {
