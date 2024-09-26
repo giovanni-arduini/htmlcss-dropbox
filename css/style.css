@@ -195,18 +195,41 @@ ol {
 }
 
 .card {
+  font-size: 11px;
   border: 1px solid var(--dark-grey-col);
 }
 
 .card-header {
   text-align: center;
-  font-size: 18px;
+  font-size: 12px;
   padding: 12px 0px;
   border-bottom: 1px solid var(--dark-grey-col);
 }
 
 .card-body {
   padding: 20px 40px;
+}
+
+.tier {
+  line-height: 15px;
+  margin-bottom: 30px;
+}
+
+.tier h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.tier p {
+  font-weight: 300;
+}
+
+.tier-feature {
+  margin-bottom: 40px;
+}
+
+.tier-feature li {
+  padding: 14px 0px;
 }
 
 /* DEBUG RULES */
