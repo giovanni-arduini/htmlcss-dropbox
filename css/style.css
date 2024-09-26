@@ -25,13 +25,16 @@ ol {
   --btn-color: #0061ff;
   --hero-color: #b4d0e7;
   --grey-col: #f5f5f5;
-  --green-col: #a2d39b;
+  /* I colori dei loghi probablimente 
+  saranno in line, scelti dall'utente
+  senza dover modificare CSS */
+  /* --green-col: #a2d39b;
   --bord-col: #61082b;
   --red-col: #ff1c1c;
   --azure-col: #0093ce;
   --light-blue-col: #b4d0e7;
   --blue-col: #0d2481;
-  --yellow-col: #ffd830;
+  --yellow-col: #ffd830; */
   --footer-color: #000000;
 }
 
@@ -42,8 +45,8 @@ ol {
   margin: 0 auto;
 }
 
-.container-bg {
-  max-width: 1920px;
+.container-fluid {
+  max-width: 100%;
 }
 
 .container {
@@ -54,9 +57,21 @@ ol {
   max-width: 1000px;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row > * {
+  padding: 0px 25px;
+}
+
 .btn {
   background-color: var(--btn-color);
-  padding: 6px 10px;
+  padding: 0px 16px;
+  line-height: 44px;
+  text-align: center;
+  display: inline-block;
   color: white;
 }
 
@@ -80,10 +95,10 @@ ol {
 
 .navbar {
   width: 100%;
+  padding: 14px 18px;
 }
 
 .navbar .row {
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -91,9 +106,24 @@ ol {
 .menu-list {
   display: flex;
   align-items: center;
-  padding: 20px 30px;
-  gap: 35px;
+  /* padding: 20px 30px; */
+  /* gap: 35px; */
   font-size: 16px;
+}
+
+.navbar .menu-list a {
+  display: block;
+  padding: 0px 16px;
+}
+
+.logo {
+  display: block;
+}
+
+.navbar .menu-list .logo {
+  display: block;
+
+  padding: 0px;
 }
 
 /* MAIN */
@@ -101,6 +131,8 @@ ol {
 /* HERO */
 .hero {
   background-color: var(--hero-color);
+  padding-top: 80px;
+  padding-bottom: 20px;
   margin-bottom: 130px;
 }
 
@@ -111,11 +143,10 @@ ol {
 .hero .col-100 p {
   font-size: 78px;
   font-weight: bolder;
-  padding-top: 96px;
+  /* padding-top: 96px; */
 }
 
 .row.hero-content {
-  display: flex;
   align-content: center;
 }
 
@@ -124,18 +155,14 @@ ol {
   flex-direction: column;
   gap: 20px;
   font-size: 18px;
-  padding-bottom: 20px;
   align-items: flex-start;
-}
-
-.col-40 a {
 }
 
 .hero .col-40 :nth-last-child(2) {
   flex-grow: 1;
 }
 
-.col-40 .fa-solid.fa-arrow-down {
+.hero-icon {
   font-size: 42px;
 }
 
@@ -156,9 +183,8 @@ ol {
   font-size: 14px;
 }
 
-.row.subscribe-options {
-  display: flex;
-  flex-wrap: wrap;
+.card {
+  border: 1px solid black;
 }
 
 /* DEBUG RULES */

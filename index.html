@@ -19,7 +19,7 @@
   <body>
     <header>
       <section class="navbar">
-        <div class="center-rules container-bg">
+        <div class="center-rules container-fluid">
           <div class="row">
             <div class="col">
               <ul class="menu-list">
@@ -65,9 +65,11 @@
                 omnis nisi nihil aperiam magnam ratione numquam minus recusandae
                 accusantium obcaecati, sequi deserunt at assumenda. Qui.
               </p>
+
               <a class="btn" href="#">Inizia la tua prova gratuita</a>
+
               <p>Annulla in qualsiasi momento</p>
-              <p><i class="fa-solid fa-arrow-down"></i></p>
+              <p class="hero-icon"><i class="fa-solid fa-arrow-down"></i></p>
             </div>
             <div class="col-60">
               <figure>
@@ -77,29 +79,42 @@
           </div>
         </div>
       </section>
-      <section class="subscription-plans debug">
+      <section class="subscription-plans">
         <div class="center-rules container-sm">
           <div class="row subscribe-title">
             <div class="col-100">
               <h1>Trova il piano business che fa per te</h1>
               <div class="pay-time-choice">
                 <div>
-                  <input type="checkbox" name="monthly" id="" />
+                  <input checked type="radio" name="billing" id="monthly" />
+                  <!-- qui è da usare label invece di span -->
                   <span>Fatturazione mensile</span>
                 </div>
+
                 <div>
-                  <input type="checkbox" name="yearly" id="" />
+                  <input type="radio" name="billing" id="yearly" />
                   <span>Fatturazione annuale</span>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row subscribe-options">
-            <div class="col-33">CIAO</div>
-            <div class="col-33">CIAO</div>
-            <div class="col-33">CIAO</div>
-            <div class="col-100">CIAO</div>
-          </div>
+          <ul class="row subscribe-options">
+            <li class="col-33">
+              <div class="card">piano</div>
+            </li>
+
+            <li class="col-33">
+              <div class="card">piano</div>
+            </li>
+
+            <li class="col-33">
+              <div class="card">piano</div>
+            </li>
+
+            <li class="col-100">
+              <div class="card">piano</div>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
