@@ -193,6 +193,14 @@ hr {
 
 /* SUBSCRIPTION PLANS */
 
+.subscribe-options .col-33 {
+  display: flex;
+}
+
+.subscribe-options .col-33 .card {
+  flex-grow: 1;
+}
+
 .subscribe-title h1 {
   margin-bottom: 70px;
   font-size: 32px;
