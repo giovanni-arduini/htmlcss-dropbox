@@ -242,15 +242,13 @@ hr {
 .tier {
   line-height: 15px;
   margin-bottom: 30px;
+  font-weight: 300;
 }
 
 .tier h2 {
+  font-weight: 500;
   font-size: 18px;
   margin-bottom: 20px;
-}
-
-.tier p {
-  font-weight: 300;
 }
 
 .tier-feature {
@@ -291,9 +289,19 @@ hr {
 
 /* Team card */
 
+.col-40.team .btn {
+  justify-self: center;
+}
+
 .contact {
-  font-weight: 700;
   margin-bottom: 58px;
+}
+
+/* PARTNERSHIP SECTION*/
+
+img {
+  object-fit: cover;
+  object-position: center;
 }
 
 /* DEBUG RULES */
