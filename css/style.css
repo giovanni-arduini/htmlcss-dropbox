@@ -92,8 +92,11 @@ ol {
   width: calc(100% / 3);
 }
 
-.fa-solid,
-.fa-li i {
+.fa-ul {
+  margin-left: 17px;
+}
+
+.fa-solid {
   display: inline;
   margin-right: 5px;
 }
