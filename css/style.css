@@ -408,6 +408,22 @@ figure {
 .client-box .col-50 {
   width: 100%;
   aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.client-box .col-50 img {
+  object-fit: contain;
+  width: 50%;
+}
+
+.clients .col-33 {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-client {
+  width: 40%;
 }
 
 /* DEBUG RULES */
