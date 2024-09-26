@@ -221,6 +221,8 @@ hr {
   row-gap: 30px;
 }
 
+/* Main Cards */
+
 .card {
   font-size: 11px;
   border: 1px solid var(--dark-grey-col);
@@ -286,6 +288,8 @@ hr {
 .hl-list li {
   padding: 12px 0;
 }
+
+/* Team card */
 
 /* DEBUG RULES */
 
