@@ -25,6 +25,7 @@ ol {
   --btn-color: #0061ff;
   --hero-color: #b4d0e7;
   --grey-col: #f5f5f5;
+  --dark-grey-col: #ededee;
   /* I colori dei loghi probablimente 
   saranno in line, scelti dall'utente
   senza dover modificare CSS */
@@ -194,13 +195,15 @@ ol {
 }
 
 .card {
-  border: 1px solid black;
+  border: 1px solid var(--dark-grey-col);
   padding: 0px 40px;
 }
 
 .card-header {
   text-align: center;
   font-size: 18px;
+  padding: 12px 0px;
+  border-bottom: 1px solid var(--dark-grey-col);
 }
 
 /* DEBUG RULES */
