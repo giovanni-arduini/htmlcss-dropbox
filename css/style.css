@@ -334,6 +334,17 @@ figure {
   border: 1px solid black;
 }
 
+/* OPERATION CARDS */
+/* 
+.operations-title {
+  text-align: start;
+  padding: 25px;
+} */
+
+.operations .card-row {
+  flex-wrap: wrap;
+}
+
 /* DEBUG RULES */
 
 .debug .container {
