@@ -105,6 +105,12 @@ ol {
   color: #009dff;
 }
 
+hr {
+  width: 40%;
+  border: 1px solid var(--dark-grey-col);
+  margin-bottom: 54px;
+}
+
 /* HEADER */
 
 .navbar {
