@@ -196,7 +196,6 @@ ol {
 
 .card {
   border: 1px solid var(--dark-grey-col);
-  padding: 0px 40px;
 }
 
 .card-header {
@@ -204,6 +203,10 @@ ol {
   font-size: 18px;
   padding: 12px 0px;
   border-bottom: 1px solid var(--dark-grey-col);
+}
+
+.card-body {
+  padding: 20px 40px;
 }
 
 /* DEBUG RULES */
