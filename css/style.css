@@ -306,6 +306,10 @@ hr {
 
 /* PARTNERSHIP SECTION*/
 
+.partner {
+  margin-bottom: 10rem;
+}
+
 figure {
   display: flex;
 }
@@ -341,8 +345,26 @@ figure {
   padding: 25px;
 } */
 
+.operations-title {
+  margin-bottom: 5rem;
+}
+
 .operations .card-row {
   flex-wrap: wrap;
+}
+
+.op-pics {
+  display: flex;
+}
+
+.op-pic {
+  object-fit: contain;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.op-info-title {
+  margin-bottom: 40px;
 }
 
 /* DEBUG RULES */
