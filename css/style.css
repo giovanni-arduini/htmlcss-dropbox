@@ -173,18 +173,34 @@ ol {
 
 /* SUBSCRIPTION PLANS */
 
-.subscription-plans h1 {
-  font-size: 30px;
+.subscribe-title h1 {
+  margin-bottom: 70px;
+  font-size: 32px;
+}
+
+.subscribe-title {
+  margin-bottom: 40px;
+  font-weight: 300;
 }
 
 .pay-time-choice {
   display: flex;
   gap: 40px;
-  font-size: 14px;
+  font-size: 18px;
+}
+
+.subscribe-options {
+  row-gap: 30px;
 }
 
 .card {
   border: 1px solid black;
+  padding: 0px 40px;
+}
+
+.card-header {
+  text-align: center;
+  font-size: 18px;
 }
 
 /* DEBUG RULES */
